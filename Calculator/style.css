@@ -1,0 +1,58 @@
+.calculator{
+    padding: 1rem 1rem;
+    border: 1px solid white;
+    background-color: black;
+    width: 17rem;
+    text-align: center;
+    display: block;
+}
+.input{
+    border-bottom:1px solid white;
+    color: white;
+    font: 1rem bold;
+    width:100%;
+    height:2rem;
+    margin-bottom: 0.5rem;
+    text-align: right;
+}
+.equal button{
+    display: block;
+    width: 100%;
+    height: 3rem;
+    margin:0.25rem 0;
+    border-radius: 1.5rem;
+    background-color: #f9c726;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.inputs{
+    display: flex;
+}
+.numbers{
+    display: flex;
+}
+
+.numbers div button{
+    margin: 0.25rem 0;
+    width:3rem;
+    height:3rem;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 50%;
+    border:1px solid white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.operators div button{
+    margin: 0.25rem 0;
+    width:3rem;
+    height:3rem;
+    background-color: #f9c726 !important;
+    color: white;
+    border-radius: 50%;
+    border:1px solid white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
